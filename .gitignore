@@ -26,6 +26,17 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Sensitive files
+.env
+.env.*
+!.env.example
+
+# Local environment
+venv/
+logs/
+__pycache__/
+*.pyc
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
